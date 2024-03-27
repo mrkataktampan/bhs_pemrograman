@@ -1,10 +1,10 @@
 # GITHUB COMMAND LINE SAAT INSTALISASI PROJECT
 
   git init
-digunakan untuk apa
+digunakan untuk memmberikan suatu perintah untuk membuat sebuah direktori bernama .git di dalam suatu proyek kita.
 
   git add .
-digunakan untuk apa
+digunakan untuk membuat ataua menambahkan sebuah file baru pada direktori kerja anda. 
 
   git commit -m "pesannya"
 diigunakan untuk apa
