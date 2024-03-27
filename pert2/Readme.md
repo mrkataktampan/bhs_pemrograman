@@ -21,5 +21,5 @@ digunakan untuk apa
 # GITHUB COMMAND LINE SAAT MAINTENANCE/MONITORING PROJECT (TAMBAH KURANG ISI FILE)
 
 - git add .
-- git commit -m "pesannya"
+- git commit -m "pesannyaa"
 - git push
