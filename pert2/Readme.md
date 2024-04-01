@@ -21,5 +21,5 @@ digunakan untuk mengirimkan suatu perubahan dari branch lokal ke branch yang ber
 # GITHUB COMMAND LINE SAAT MAINTENANCE/MONITORING PROJECT (TAMBAH KURANG ISI FILE)
 
 - git add .
-- git commit -m "pesannyaaaaaaaaaaaaaaaaaaaaaaa"
+- git commit -m "pesannya"
 - git push
