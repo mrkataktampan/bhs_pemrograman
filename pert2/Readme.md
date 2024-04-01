@@ -1,25 +1,25 @@
 # GITHUB COMMAND LINE SAAT INSTALISASI PROJECT
 
-  git init
-digunakan untuk memmberikan suatu perintah untuk membuat sebuah direktori bernama .git di dalam suatu proyek kita.
+  git init 
+digunakan untuk memberikan suatu perintah untuk membuat sebuah folder (directory) bernama .git di dalam suatu project kita.
 
   git add .
-digunakan untuk membuat ataua menambahkan sebuah file baru pada direktori kerja anda. 
+digunakan untuk membuat atau menambahkan sebuah file baru pada folder (directory) kerja kita. 
 
   git commit -m "pesannya"
-diigunakan untuk apa
+diigunakan untuk menambahkan suatu pemberitahuan mengenai perubahan yang telah terjadi pada repository kita.
 
   git branch -M main
-digunakan untuk apa
+digunakan untuk mengubah versi paralel dari repository anda (branch) yang mana secara default, repository Git-nya "master" menjadi "main".
 
   git remote add origin (link kode ssh di respository github)
-digunakan untuk apa
+digunakan untuk menambahkan remote reposoitory kedalam repository lokal anda 
 
   git pushh origin -u main
-digunakan untuk apa
+digunakan untuk mengirimkan suatu perubahan dari branch lokal ke branch yang berada di repository remote yang bernama "origin".
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/MONITORING PROJECT (TAMBAH KURANG ISI FILE)
 
 - git add .
-- git commit -m "pesannyaa"
+- git commit -m "pesannyaaaaaaaaaaaaaaaaaaaaaaa"
 - git push
