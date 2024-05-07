@@ -1,4 +1,4 @@
-@startuml Kurang
+@startuml kurang
 
 class Calculator {
     + tambah(int a, int b)
