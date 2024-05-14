@@ -1,0 +1,50 @@
+@startuml warteg
+start
+:initialize Variables;
+while (pilih != '3') is (control statement)
+    :Display Menu;
+    :1. Makanan;
+    :2. Minuman;
+    :3. Exit;
+    :Get User Input (Pilih);
+    if (pilih == '1') then (case 1)
+        :Display Makanan Menu;
+        :1. Ayam Bakar;
+        :2. Bakso;
+        :3. Kembali;
+        :Get User Input (Pilih);
+        if (pilih == '1') then (case 1)
+            :Harga = 10.000;
+            :Quantity;
+            :Get User Input (Quantity);
+            :Total = Quantity * 10.000;
+        else if (pilih == '2') then (case 2)
+            :Harga = 8.000;
+            :Quantity;
+            :Get User Input (Quantity);
+            :Total = Quantity * 8.000;
+        else if (pilih == '3') then (case 3)
+        endif
+    else if (pilih == '2') then (case 2)
+        :Display Minuman Menu;
+        :1. Es Teh;
+        :2. Thai Tea;
+        :3. Kembali;
+        :Get User Input (Pilih);
+        if (pilih == '1') then (case 1)
+            :Harga = 5.000;
+            :Quantity;
+            :Get User Input (Quantity);
+            :Total = Quantity * 5.000;
+        else if (pilih == '2') then (case 2)
+            :Harga = 6.000;
+            :Quantity;
+            :Get User Input (Quantity);
+            :Total = Quantity * 6.000;
+        else if (pilih == '3') then (case 3)
+        endif
+    endif
+endwhile (control statement)
+:Display "EXIT";
+stop
+@enduml
