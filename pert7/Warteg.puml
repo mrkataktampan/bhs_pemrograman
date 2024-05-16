@@ -2,7 +2,7 @@
 start
 :initialize Variables;
 while (pilih != '3') is (control statement)
-    :Display Menu;
+    :Menu Utama;
     :1. Makanan;
     :2. Minuman;
     :3. Exit;
