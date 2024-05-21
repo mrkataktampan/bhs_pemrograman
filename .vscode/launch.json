@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/root/perkuliahan/bhs_pemrograman/pert7",
-      "program": "/root/perkuliahan/bhs_pemrograman/pert7/build/Debug/outDebug",
+      "cwd": "/root/perkuliahan/bhs_pemrograman/UTS",
+      "program": "/root/perkuliahan/bhs_pemrograman/UTS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

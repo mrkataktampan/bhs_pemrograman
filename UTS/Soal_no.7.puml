@@ -1,0 +1,44 @@
+@startuml
+
+class Main {
+    - int pilihan
+    + menu() : void
+}
+
+class Menu {
+    + tampilkanMenu() : void
+    + dapatkanPilihan() : int
+}
+
+class Operasi {
+    {abstract} + hitung(int a, int b) : int
+}
+
+class Penjumlahan {
+    + hitung(int a, int b) : int
+}
+
+class Pengurangan {
+    + hitung(int a, int b) : int
+}
+
+class Perkalian {
+    + hitung(int a, int b) : int
+}
+
+class Pembagian {
+    + hitung(int a, int b) : int
+}
+
+Main --> Menu
+Menu --> Penjumlahan
+Menu --> Pengurangan
+Menu --> Perkalian
+Menu --> Pembagian
+
+Operasi <|-- Penjumlahan
+Operasi <|-- Pengurangan
+Operasi <|-- Perkalian
+Operasi <|-- Pembagian
+
+@enduml
