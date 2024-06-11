@@ -28,6 +28,7 @@ Pada saat ingin menambahkan elemen ke dalam set, dapat menggunakan fungsi 'add()
 Selain itu kita juga dapat memeperbarui data dengan fungsi 'update().
 
 # CONTOH dalam Add
+```
 alphabet_set = {'a', 'b', 'c'}
 print(alphabet_set)
 
@@ -38,10 +39,13 @@ alphabet_set.update({'f', 'g'})
 alphabet_set.update(['h', 'i'])
 
 print(alphabet_set)
+```
 
 # OUTPUT:
+~~~
 {'a', 'b', 'c'}
 {'d', 'u', 'e', 'a', 'b', 'g', 'h', 'f', 'c'}
+~~~
 
 ## e. Delete/Remove Set Elemen
 Untuk menghapus elemen dalam set di Python, terdapat empat fungsi yang bisa digunakan, yaitu:
@@ -51,6 +55,7 @@ Untuk menghapus elemen dalam set di Python, terdapat empat fungsi yang bisa digu
 - fungsi clear() : Untuk menghapus semua elemen dalam set, mengosongkan set sepenuhnya
 
 # CONTOH dalam Delete
+```
 set = {'virtual', 'virtuous', 100, ('a', 'b'), False, True}
 print(set)
 set = {'virtual', 'virtuous', 100, ('a', 'b'), False, True}
@@ -72,14 +77,16 @@ print(set)
 #Menghapus semua elemen
 set.clear()
 print(set)
-
+```
 # OUTPUT:
+~~~
 {False, True, 100, 'maya', 'budi', ('a', 'b')}
 {False, True, 'maya', 'budi', ('a', 'b')}
 {False, True, 'maya', 'budi'}
 Removed value = False
 {True, 'maya', 'budi'}
 set()
+~~~
 
 # F.Functions (Set)
 Fungsi-fungsi bawaan dalam Python yang digunakan untuk mengelola set 
