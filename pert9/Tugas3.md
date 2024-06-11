@@ -54,7 +54,7 @@ Untuk menghapus elemen dalam set di Python, terdapat empat fungsi yang bisa digu
 - Fungsi pop()   : Untuk menghapus dan mengembalikan elemen acak dari set, mengingat set di Python tidak memiliki urutan tetap
 - fungsi clear() : Untuk menghapus semua elemen dalam set, mengosongkan set sepenuhnya
 
-# CONTOH dalam Delete
+# CONTOH dalam Delete/Remove dalam Set
 ```
 set = {'virtual', 'virtuous', 100, ('a', 'b'), False, True}
 print(set)
