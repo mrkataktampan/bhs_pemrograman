@@ -1,4 +1,4 @@
 pert8/db/mariadb/*
 pert8/db/postgres/*
 pert8/db/mongo/*
-per8/db/redis/*
+pert8/db/redis/*
